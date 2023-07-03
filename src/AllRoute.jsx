@@ -6,6 +6,8 @@ import Products from './Components/Products/Products'
 import Reviews from './Components/Reviews/Reviews'
 import Services from './Components/services/Services'
 import Footer from './Components/Footer/Footer'
+// import About from './Components/About/About'
+// import Contact from './Components/Contact/Contact'
 const Routes = () => {
     return (
         <div>
@@ -15,8 +17,11 @@ const Routes = () => {
             <Products />
             <Reviews />
             <Services/>
+            {/* <About/> */}
+            {/* <Contact/> */}
             <Footer/>
         </div>
+        
     )
 }
 

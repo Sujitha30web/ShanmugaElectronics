@@ -1,7 +1,9 @@
 import React from 'react'
 import './product.css'
-import Amp from '../../images/amplifier.png';
-import speaker from '../../images/speaker.png'
+import Amp from '../../shopimages/amplifier.jpg';
+import speaker from '../../shopimages/speaker.jpg'
+// import Amp from '../../images/amplifier.png';
+// import speaker from '../../images/speaker.png'
 import tele from '../../images/tele.png';
 import Zoom from 'react-reveal/Zoom';
 const Products = () => {

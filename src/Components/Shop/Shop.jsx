@@ -1,9 +1,14 @@
 import React from 'react'
 import './shop.css'
-import Amp from '../../images/amplifier.png';
-import speaker from '../../images/speaker.png'
+
+import Amp from '../../shopimages/amplifier.jpg';
+import speaker from '../../shopimages/speaker.jpg'
+import remote from '../../shopimages/remote.jpg';
+
+// import Amp from '../../images/amplifier.png';
+// import speaker from '../../images/speaker.png'
+// import remote from '../../images/remote.png';
 import tele from '../../images/tele.png';
-import remote from '../../images/remote.png';
 import homet from '../../images/hometheatre.png';
 import Fade from 'react-reveal/Fade';
 const Shop = () => {
@@ -16,23 +21,23 @@ const Shop = () => {
                 <Fade Left big>
                     <div className='img'>
                         <div className='img1'>
-                            <img src={Amp} />
+                            <img style={{width:"300px", height:"300px"}} src={Amp} />
                             <p>Amplifier</p>
                         </div>
                         <div className='img1'>
-                            <img src={speaker} />
+                            <img style={{width:"300px", height:"300px"}} src={speaker} />
                             <p>Speaker</p>
                         </div>
                         <div className='img1'>
-                            <img src={homet} />
+                            <img style={{width:"300px", height:"300px"}} src={homet} />
                             <p>Home Theatre</p>
                         </div>
                         <div className='img1'>
-                            <img src={remote} />
+                            <img style={{width:"300px", height:"300px"}} src={remote} />
                             <p>Gadgets</p>
                         </div>
                         <div className='img1'>
-                            <img src={tele} />
+                            <img style={{width:"300px", height:"300px"}} src={tele} />
                             <p>Television</p>
                         </div>
                     </div>

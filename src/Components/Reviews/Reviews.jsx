@@ -15,7 +15,7 @@ const Reviews = () => {
                             <img src={q} />
                         </div>
                         <div>
-                            <p>Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
+                            <p>Ordered a Roberts radio from this website at a good price . Communication was superb, they went out of their way to help me . I would recommend this site. </p>
                         </div>
                         <div>
                             <p>- Prasanth D</p>
@@ -26,10 +26,10 @@ const Reviews = () => {
                             <img src={q} />
                         </div>
                         <div>
-                            <p>Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
+                            <p>Having experienced excellent customer service when I purchased a Sony Bravia TV from Shanmuga Electronics, I was happy to consider them again.</p>
                         </div>
                         <div>
-                            <p>- Prasanth D</p>
+                            <p>- Sujitha R</p>
                         </div>
                     </div>
                     <div className='card'>
@@ -37,10 +37,10 @@ const Reviews = () => {
                             <img src={q} />
                         </div>
                         <div>
-                            <p>Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
+                            <p>Orderd a Samsung HW Q990B Q Symphony 11 1.4ch Cinematic Dolby Atmos Wi Fi Soundbar was £100 cheaper then other sites. I would highly recommend this shop for purchase.</p>
                         </div>
                         <div>
-                            <p>- Prasanth D</p>
+                            <p>- Mukilan N</p>
                         </div>
                     </div>
                 </div>

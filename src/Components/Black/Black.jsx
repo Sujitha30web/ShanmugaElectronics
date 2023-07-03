@@ -1,6 +1,7 @@
 import React from 'react'
 import './black.css';
-import Speaker from '../../images/repair.png'
+import Speaker from '../../shopimages/repair.jpg'
+// import Speaker from '../../images/repair.png'
 import Zoom from 'react-reveal/Zoom';
 const Black = () => {
     return (

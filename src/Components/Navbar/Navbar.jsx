@@ -5,7 +5,8 @@ import shop from '../../images/shop.svg'
 import { Icon } from 'react-icons-kit'
 import { menu } from 'react-icons-kit/feather/menu'
 import { x } from 'react-icons-kit/feather/x';
-import { useState } from 'react'
+import { useState } from 'react';
+// import { about } from "../about/about";
 
 const Navbar = () => {
    const [toggle,setToggle] = useState(false)
@@ -27,13 +28,13 @@ const Navbar = () => {
                 <Link class="navbar-item1" to="/">Home</Link>
                 <Link class="navbar-item2" to="/gallery">Gallery</Link>
                 <Link class="navbar-item1" to="/">Services</Link>
-                <Link class="navbar-item2" to="/">About us</Link>
+                <Link class="navbar-item2" to="/about">About us</Link>
+                
                 <Link to="/login"><img src={shop} /></Link>
             </div>
         </div>
     )
 }
-
 export default Navbar
 
 

@@ -13,6 +13,7 @@ const Home = () => {
                             <div>
                                 <h3 className='con'>
                                     Experience the ultimate in convenience and quality with our wide selection of top-of-the-line electronics.
+   
                                 </h3>
                             </div>
                             <div>
@@ -22,7 +23,7 @@ const Home = () => {
                         </div>
                     </Slide>
                     <div className='right'>
-                        <img src={homet} style={{ 'width': '500px', 'height': '400px' }} />
+                        <img src={homet} style={{ 'width': '30rem', 'height': '20rem' }} />
                     </div>
                 </div>
             </div>
